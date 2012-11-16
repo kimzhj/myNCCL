@@ -9,11 +9,11 @@ This is my NCCL repo
 goto to web
 
 ### hello.c
-#include <stdio.h>
-
-int main(void)
-{
-  printf("hello, NCCL\n");
-
-  return 0;
-}
+  #include <stdio.h>
+  
+  int main(void)
+  {
+    printf("hello, NCCL\n");
+  
+    return 0;
+  }
