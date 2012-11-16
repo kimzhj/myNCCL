@@ -16,4 +16,4 @@ goto to web
 		printf("hello, NCCL\n");
 	
 		return 0;
-	}
+	}  
