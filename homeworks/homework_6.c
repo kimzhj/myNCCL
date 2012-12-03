@@ -11,9 +11,9 @@ int main(void)
 
 	do
 	{
-		for(i = 1;i <= 5;i++)
+		for(i = 1; i <= 5; i++)
 		{
-			for(j = 1;j <= 5;j++)
+			for(j = 1; j <= 5; j++)
 			{
 				if(x == i && y == j)
 					printf("1  ");
@@ -48,11 +48,11 @@ int main(void)
 
    	printf("满足条件的数有:");
 
-  	for(i = 1;i <= 1000;i++)
+  	for(i = 1; i <= 1000; i++)
   	{ 
      		sum = 0;
 
-		for(j = 1;j < i;j++)
+		for(j = 1; j < i; j++)
    		{ 
 	   		if(i%j == 0)
 	      			sum += j;
@@ -77,7 +77,7 @@ int main(void)
 
 	printf("三位数的水仙花数有:");
 
-	for(i = 100;i < 1000;i++)
+	for(i = 100; i < 1000; i++)
 	{
 		a = i/100;
 		b = i/10-a*10;
