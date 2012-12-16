@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+int main(void)
 {
 	int sum = 0;
 	int num;
@@ -18,6 +18,8 @@ int main()
   	}
 
   	printf("sum=%d\n",sum);
+	
+	return 0;
 
 }
 
@@ -28,7 +30,7 @@ int main()
 
 #include<stdio.h>
 
-int main()
+int main(void)
 {
   	int num[5];
   	int max;
@@ -51,6 +53,8 @@ int main()
   	}
 
   	printf("You input max number is %d\n",max);
+	
+	return 0;
 }
 
 
