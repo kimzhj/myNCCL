@@ -1,4 +1,5 @@
-/*homework_7_2.c*/
+/*homework_7_1.c*/
+/*5*5 的棋盘，用户输入两个位置坐标，统计这两个位置之间有多少个子？(按从左向右的顺序数)*/
 #include<stdio.h>
 
 int main(void)
@@ -72,6 +73,8 @@ int main(void)
 
 
 /*homework_7_2.c*/
+/*在上图所示的棋盘中，用户任意输入一个位置，放置国际象棋中的皇后，请输出所有皇后能够吃到的位置。*/
+
 #include<stdio.h>
 #include<math.h>
 
