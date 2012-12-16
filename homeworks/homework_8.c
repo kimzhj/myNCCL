@@ -1,4 +1,5 @@
 /*homework_8_1.c*/
+/*求1-100以内最大的素数，要求用设计一个函数实现。*/
 #include <stdio.h>
 #include <math.h>
 
@@ -44,6 +45,8 @@ int main(void)
 
 
 /*homework_8_2.c*/
+/*用户输入两个数字，按从个位对齐的方式，找出这2个数在相同位置处数字也相同的个数。
+例如：123 和 5173 这2个数字，位置相同数字也相同的个数是 2*/
 #include <stdio.h>
 
 int compare(int fir_num, int sec_num)
